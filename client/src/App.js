@@ -12,6 +12,7 @@ import NewPirate from './views/NewPirate';
 function App() {
   return (
     <div className="App">
+      <h1> Welcome to Pirates App!</h1>
       <Router>
         <AllPirates path='pirates' />
         <SinglePirate path='pirate/:id'/>
